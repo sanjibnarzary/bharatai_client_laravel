@@ -23,7 +23,12 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('/translate', function () {
-    return view('translate');
+    return view("translate")->with([
+        "src_text"=>"Just a test.",
+        "tgt_text"=>"",
+        "src_lang"=>"",
+        "tgt_lang"=>"hin_Deva"
+    ]);
 })->middleware(['auth'])->name('translate');
 
 Route::post('/translate',[TranslateController::class, 'translate'])->middleware(['auth']);

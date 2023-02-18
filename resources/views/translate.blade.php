@@ -23,7 +23,8 @@
                             <div class="col-md-6">
                                 <select name="tgt_lang" class="form-control form-control-lg">
                                     <option>Target Language</option>
-                                    <option value="asm_Beng">Assamese</option>
+                                    <option value="asm_Beng" {{ $tgt_lang=="asm_Beng"?$tgt_lang:"selected" }}>Assamese</option>
+                                    <option value="hin_Deva" {{ $tgt_lang=="hin_Deva"?$tgt_lang:"selected" }}>Hindi</option>
                                 </select>
                             </div>
                         </div>
