@@ -19,8 +19,8 @@ class TranslateController extends Controller
                 'src_lang' => $src_language,
                 'tgt_lang' => $tgt_language
             );
-        //$response = Http::post($url, $params);
+        $response = Http::post($url, $params);
     
-        return $params;
+        return $response;
     }
 }
