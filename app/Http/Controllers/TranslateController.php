@@ -23,6 +23,6 @@ class TranslateController extends Controller
     
         return view("translate")->with([
             "tgt_text"=>$response->tgt_text
-            ])
+        ]);
     }
 }
