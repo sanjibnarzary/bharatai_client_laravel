@@ -14,35 +14,20 @@
 
                         <div class="col-md-6">
 
-                            <select class="form-control form-control-lg">
-                                <option>Auto Detect</option>
-                                <option>Source Language</option>
-                            </select>
+                            <h1>Chat with AI</h1>
                         </div>
                         <div class="col-md-6">
-                            <select class="form-control form-control-lg">
-                                <option>Target Language</option>
-                            </select>
+                            <h1>Translate any Indian Language</h1>
                         </div>
                     </div>
                     <div class="gap-3"><br></div>
                     <div class="row">
                         <div class="col-md-6 ">
 
-                            <textarea class="form-control form-control-lg" rows="5"></textarea>
+                           
                         </div>
                         <div class="col-md-6">
-                            <div class="bd-clipboard">
-                                <button type="button" class="btn-clipboard" title="" data-bs-original-title="Copy to clipboard">Copy</button>
-                            </div>
-                            <div class="highlight">
-
-                                <div class="chroma">
-                                    <div class="callout-info">
-                                        <code>Destination Language</code>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="p-6 bg-white border-b border-gray-200 text-center">
