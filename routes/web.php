@@ -24,4 +24,6 @@ Route::get('/dashboard', function () {
 Route::get('/translate', function () {
     return view('translate');
 })->middleware(['auth'])->name('translate');
+
+Route::post('/translate',[TranslateController::class, 'translate'])->middleware(['auth']);
 require __DIR__.'/auth.php';
