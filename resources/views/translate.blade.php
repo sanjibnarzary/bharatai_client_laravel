@@ -41,7 +41,7 @@
 
                                     <div class="chroma">
                                         <div class="callout-info">
-                                            <code>{{ !empty($tgt_text)?$tgt_text:""; }}</code>
+                                            <code>{{ !empty($tgt_text)?$tgt_text:"" }}</code>
                                         </div>
                                     </div>
                                 </div>
