@@ -21,6 +21,8 @@ class TranslateController extends Controller
             );
         $response = Http::post($url, $params);
     
-        return $response;
+        return view("translate")->with([
+            "tgt_text"=>$response->tgt_text
+            ])
     }
 }
