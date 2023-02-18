@@ -44,22 +44,20 @@
                         <div class="col-md-6">
 
                         <h1 class="h1">Translation</h1>
-                            <div class="p-6 bg-white border-b border-gray-200">
-                                <a href="/translate" class="btn btn-lg btn-info">Translate</a>
-                            </div>
+                                <a href="/translate" class="btn btn-lg btn-info btn-block">Translate</a>
                         </div>
                         <div class="col-md-6">
-                        <h1 class="h1">Code Generation</h1>
-                            <div class="p-6 bg-white border-b border-gray-200">
-                                <a href="/generatecode" class="btn btn-lg btn-warning">Generate Computer Code</a>
-                            </div> 
+                        <h1 class="h1">Image Generation</h1>
+                            
+                                <a href="/prompt" class="btn btn-lg btn-warning btn-block">Generate Image from Prompt</a>
+                            
                         </div>
                     </div>
                     <div class="gap-3"><br></div>
                     <div class="row">
                         <div class="col-md-12 ">
 
-                            <h1 class="h1">Chat with AI</h1>
+                            <h1 class="h1">Ask Anything to AI: Chat with AI</h1>
                             <!-- Section: Timeline -->
                             <section class="py-5">
                                 <ul class="timeline-with-icons">
@@ -72,6 +70,10 @@
                                         <p class="text-muted mb-2 fw-bold">8822465418</p>
                                         <p class="text-muted">
                                             Add 8822465418 to your WhatsApp contacts and send a message starting with !gpt Who is Leonel Messi?
+                                            <br>
+                                            <blockquote class="blockquote">
+                                            <p class="mb-0">!gpt Write an application to the principal for leave of absence from 22nd to 25th of this month.</p>
+                                            </blockquote>
                                         </p>
                                     </li>
 

@@ -115,7 +115,7 @@
                             </svg>
 
                             <a href="/dashboard" class="ml-1 underline">
-                                Developed in BTR, Assam, India
+                                Developed in Kokrajhar, BTR, Assam, India
                             </a>
                         </div>
                     </div>

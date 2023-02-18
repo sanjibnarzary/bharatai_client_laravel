@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\StableDiffusionController;
 use App\Http\Controllers\TranslateController;
 use Illuminate\Support\Facades\Route;
 
@@ -32,4 +33,11 @@ Route::get('/translate', function () {
 })->middleware(['auth'])->name('translate');
 
 Route::post('/translate',[TranslateController::class, 'translate'])->middleware(['auth']);
+Route::get('/prompt', function () {
+    return view("text2image")->with([
+        "image"=>"019344c6886bc69e368a16c5a913b785.png",
+        "prompt"=>"A picture of an astronaut in space.",
+    ]);
+})->middleware(['auth']);
+Route::post('/prompt',[StableDiffusionController::class, 'prompt'])->middleware(['auth'])->name('prompt');
 require __DIR__.'/auth.php';
