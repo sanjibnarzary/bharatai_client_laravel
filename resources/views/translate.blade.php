@@ -45,8 +45,8 @@
                                     <option value="tam_Taml" {{ $tgt_lang=="tam_Taml"?"selected":"" }}>Tamil</option>
                                     <option value="tel_Telu" {{ $tgt_lang=="tel_Telu"?"selected":"" }}>Telugu</option>
                                     <option value="urd_Arab" {{ $tgt_lang=="urd_Arab"?"selected":"" }}>Urdu (Arabic script)</option>
-                                    <option value="urd_Deva" {{ $tgt_lang=="urd_Deva"?"selected":"" }}>Urdu (Devanagari script)</option>
                                     
+
                                 </select>
                             </div>
                         </div>
