@@ -31,7 +31,7 @@
                         <div class="row">
                             <div class="col-md-6 ">
 
-                                <textarea name="src_text" class="form-control form-control-lg" rows="5"></textarea>
+                                <textarea name="src_text" class="form-control form-control-lg" rows="5">{{ !empty($src_text)?$src_text:"" }}</textarea>
                             </div>
                             <div class="col-md-6">
                                 <div class="bd-clipboard">

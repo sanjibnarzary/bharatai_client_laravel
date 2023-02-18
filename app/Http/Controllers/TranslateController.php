@@ -22,7 +22,10 @@ class TranslateController extends Controller
         $response = Http::post($url, $params);
         $response = json_decode($response);
         return view("translate")->with([
-            "tgt_text"=>$response->tgt_text
+            "src_text"=>$response->src_text,
+            "tgt_text"=>$response->tgt_text,
+            "src_lang"=>$response->src_lang,
+            "tgt_lang"=>$response->tgt_lang
         ]);
     }
 }
