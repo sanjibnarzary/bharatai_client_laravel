@@ -23,6 +23,7 @@
                             <div class="col-md-6">
                                 <select name="tgt_lang" class="form-control form-control-lg">
                                     <option>Target Language</option>
+                                    <option value="asm_Beng">Assamese</option>
                                 </select>
                             </div>
                         </div>
