@@ -19,7 +19,7 @@
                         <div class="col-md-6">
                             <h1>Translate any Indian Language</h1>
                             <div class="p-6 bg-white border-b border-gray-200 text-center">
-                                <button class="btn btn-lg btn-primary">Translate</button>
+                                <a href="/translate" class="btn btn-lg btn-primary">Translate</a>
                             </div>
                         </div>
                     </div>
