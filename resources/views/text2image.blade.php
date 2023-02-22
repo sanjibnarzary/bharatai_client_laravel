@@ -35,9 +35,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="">
-                        Generated using Stable Diffusion
-                    </div>
+                    
 
 
                 </div>
